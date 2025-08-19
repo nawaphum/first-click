@@ -1,0 +1,6 @@
+<script>
+    // redirect ไป index.html พร้อม path
+    var path = location.pathname.replace('/first-click', '');
+    var redirect = '/first-click/#' + path + location.search + location.hash;
+    location.replace(redirect);
+</script>
