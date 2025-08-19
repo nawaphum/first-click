@@ -8,7 +8,7 @@
         // GitHub Pages redirect ไป index.html
         var segment = '/first-click';
         var path = location.pathname.replace(segment, '');
-        var redirect = segment + '/index.html#' + path + location.search + location.hash;
+        var redirect = segment + path + location.search + location.hash;
         location.replace(redirect);
     </script>
 </head>
